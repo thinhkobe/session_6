@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    /* định nghĩa việc sẽ sử dụng flex */
+display: flex;
+flex-direction: row;
+min-height: 100vh;
+justify-content: center;
+align-items: center;
+gap:30px;
+flex-wrap: wrap-reverse;
+flex:1
+}
+.box{
+    height: 300px;
+    width: 300px;
+    display: flex;
+}
+.box-1{
+    background-color: red;
+
+}
+.box-2{
+    background-color: yellow;
+    flex:2;
+}
+.box-3{
+    background-color: aqua;
+}
+.box-4,.box-5{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+
+}
+.header{
+   
+    height: 56px;
+    width: 100%;  
+    color: #fff;  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background: linear-gradient(#ee4d2d,#ff7337);
+}
+li{
+    list-style: none;
+}
+.item{
+    color: #fff;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.list-item{
+    display: flex;
+    gap: 15px;
+}
+.item-info{
+    position: relative;
+}
+.item-info:hover >.list-option{
+    display: block;
+}
+.list-option {
+    position: absolute;
+    background-color: black;
+    width: 150px;
+    border-radius: 4px;
+    right: 0;
+    top: 30px;
+    display: none;
+}
+.list-option::after{
+    content: "";      
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+    position: absolute;
+    top: -9px;
+    right: 15px;
+}
+
+.option {
+    padding: 8px 8px;
+    cursor: pointer;
+}
+.option:hover {
+    background-color: #d2bbbb;
+}

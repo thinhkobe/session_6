@@ -1,0 +1,52 @@
+.header {
+  border: 1px solid #1a1818;
+  height: 56px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+}
+.fa-brands {
+  font-size: 30px;
+  color: blue;
+}
+
+.search-area {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  position: relative;
+
+}
+.searchicon {
+  right: 0;
+  position: absolute;
+  padding: 5px;
+}
+
+.input {
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+}
+.use-avata {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.list {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.header-right {
+  display: flex;
+  gap: 10px;
+}

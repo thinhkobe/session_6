@@ -1,0 +1,28 @@
+-một số kĩ thuật xây dựng layout
++posion
++float
++table
++flex box
++grid
+
+-mô hình flex box
+ +khi sử dụng thuộc tính display:flex thì trục chính mặc định sẽ nằm ngang
+    và thuộc tính này sẽ được định nghĩa bên trong flex container (khối cha)
+ +display:flex->định nghĩa sử dụng flex và làm cho các item lên cùng một hàng
+ +justify-content:được sử dụng ở flex-container và luôn đi theo trục main -axis
+        -flex-start:căn các item sang bên trái
+        -flex-end:căn các item sang bên phải
+        -center:căn ra giữa
+        -space-aruond:giàn các item ra xa nhau ,khoảng cách giữa các item sẽ 
+                bằng nhau và khoảng cách 2 bên lề sẽ bé hơn
+        -space-between:giàn các iteam ra xa nhau nó sẽ cố gắng cho 2 item đầu cuối 
+                ra lề
+        -space-evenly:giàn đều các item và lề có khoảng cách giống nhau
+ +align-item:(được sử dụng với flex-container và luôn đi theo trục dọc cross axis)
+                khi display:flex
+    -flex start
+    -flex end
+    -flex center
+ +gap :dùng để giãn đều các đơn vị px,% 
+ +wrap :cho phép các item xuống dòng khi chiều dài của nó không đủ
+ +flex :dùng để kéo dài diện tích của item dựa vào chỉ số của nó
